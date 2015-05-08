@@ -1,0 +1,28 @@
+{
+  "name": "pascal-deacronym",
+  "version": "1.0.0",
+  "description": "Convert uppercase acronyms to proper PascalCase",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jcrugzz/pascal-deacronym.git"
+  },
+  "keywords": [
+    "PascalCase",
+    "changeCase",
+    "preCamelCase"
+  ],
+  "author": "Charlie Robbins <charlie@nodejitsu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcrugzz/pascal-deacronym/issues"
+  },
+  "homepage": "https://github.com/jcrugzz/pascal-deacronym",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0"
+  }
+}
